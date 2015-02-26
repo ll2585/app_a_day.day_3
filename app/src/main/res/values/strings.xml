@@ -17,4 +17,14 @@
     <string name="yes">Yes</string>
     <string name="no">No</string>
 
+
+    <string name="enter_name_text_view">Enter your name:</string>
+    <string name="win_button_text">Win</string>
+    <string name="lose_button_text">Lose</string>
+    <string name="secret_info_text_view">Your secret info: %1$s</string>
+    <string name="scoreboard_text_view">Scoreboard</string>
+    <string name="join_game_button_text">Join</string>
+    <string name="no_scores_text_view">No Scores Yet</string>
+    <string name="user_score">%1$s: %2$d Wins, %3$d Losses</string>
+
 </resources>
