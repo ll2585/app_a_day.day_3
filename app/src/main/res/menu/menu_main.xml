@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <group android:checkableBehavior="single">
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        android:icon="@drawable/settings"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/make_red"
+        android:title="@string/make_red"
+        android:orderInCategory="101"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/make_white"
+        android:title="@string/make_white"
+        android:orderInCategory="102"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/make_blue"
+        android:title="@string/make_blue"
+        android:orderInCategory="103"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/exit_app"
+        android:title="@string/exit_string"
+        app:showAsAction="ifRoom|withText"
+        android:orderInCategory="104"
+        android:icon="@drawable/exit"
+        />
+
+    </group>
+</menu>
